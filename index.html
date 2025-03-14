@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wawa.rip</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #4a86e8;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .site-name {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            border: 2px dashed #4a86e8;
+            padding: 10px 20px;
+            letter-spacing: 2px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .icon {
+            font-size: 1.5rem;
+        }
+        
+        .contact {
+            margin-bottom: 10px;
+        }
+        
+        .discord {
+            margin-bottom: 30px;
+        }
+        
+        .footer {
+            font-size: 1rem;
+            position: relative;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="site-name">wawa.rip</div>
+        <div class="tagline">i don't lose</div>
+        
+        <div class="icons">
+            <a href="#" class="icon" title="Bitcoin">₿</a>
+            <a href="#" class="icon" title="Code">&lt;/&gt;</a>
+            <a href="#" class="icon" title="Monero">ɱ</a>
+            <a href="#" class="icon" title="Telegram">📡</a>
+            <a href="#" class="icon" title="Signal">𝕊</a>
+            <a href="#" class="icon" title="GitHub">🐙</a>
+        </div>
+        
+        <div class="contact">contact at worry@wry.rip</div>
+        <div class="discord">disc: faith.bat</div>
+        
+        <div class="footer">saturday night wrist</div>
+    </div>
+
+    <script>
+        // Add simple hover effects
+        const icons = document.querySelectorAll('.icon');
+        icons.forEach(icon => {
+            icon.addEventListener('mouseover', () => {
+                icon.style.color = '#ffffff';
+            });
+            icon.addEventListener('mouseout', () => {
+                icon.style.color = '#4a86e8';
+            });
+        });
+    </script>
+</body>
+</html>
